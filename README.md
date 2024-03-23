@@ -1,14 +1,10 @@
 This is a script to automate bing search !!
-Before using please install these two python library : 
-1)pywhatkit
-2)wonderwords
+Before using please install python library : 
 
-Enter the following command in terminal or cmd :
+1)wonderwords
 
-#pywhatkit
-```
-pip install pywhatkit
-```
+To install enter the following command in terminal or cmd :
+
 
 #wonderwords
 ```
