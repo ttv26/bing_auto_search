@@ -1,6 +1,7 @@
 import webbrowser
 import time 
 import random
+import pyautogui
 from wonderwords import RandomWord
 r=RandomWord()
 print("\nStarting!!!")
@@ -11,8 +12,11 @@ while(i<nsearch):
     word1=r.word()
     word2=r.word()
     word3=r.word()
-    randomint=random.randint(3,8)
-    time.sleep(randomint)
-    webbrowser.open("https://www.bing.com/search?q="+word1+"+"+word2+"+"+word3+"&qs=n&form=QBRE&sp=-1&lq=0&pq=m&sc=11-1&sk=&cvid=BD43CEF94CB54B6CBC728896AF0A144A&ghsh=0&ghacc=0&ghpl=")
+    randomint=random.randint(4,9)
+    #"+word1+"+"+word2+"+"+word3+"
+    webbrowser.open("https://www.bing.com/search?q="+word1+"+"+word2+"+"+word3+"&qs=n&form=QBRE&sp=-1&lq=0&pq="+word1+"+"+word2+"+"+word3+"&sc=10-14&sk=&cvid=F958C197B98945529D35B01540AC9449&ghsh=0&ghacc=0&ghpl=")
     i=i+1 
+    time.sleep(randomint)
+    pyautogui.hotkey('ctrl','w')
 print("\n**ENDED**")
+

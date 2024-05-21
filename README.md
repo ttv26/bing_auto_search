@@ -10,3 +10,11 @@ To install enter the following command in terminal or cmd :
 ```
 pip install wonderwords
 ```
+2)pyautogui
+
+To install enter the following command in terminal or cmd :
+
+#pyautogui
+```
+pip install pyautogui
+```
